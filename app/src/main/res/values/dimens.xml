@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Main Activity stuff-->
+    <dimen name="marginTop_main">5dp</dimen>
+    <dimen name="image_height">120dp</dimen>
+    <dimen name="layout_width_edittext">60dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+    <dimen name="sec_qn_size">10dp</dimen>
+</resources>

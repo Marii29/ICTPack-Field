@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SignUp</string>
+    <string name="username">User Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="pwd">Password</string>
+    <string name="conf_pwd">Confirm Password</string>
+    <string name="phone_no">Phone No</string>
+    <string name="btn_1">SIGN UP</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="pref_file">com.example.marii.preference_file</string>
+    <string name="pref_login_status">com.example.marii.preference_login_status</string>
+    <string name="pref_user_name">com.example.marii.preference_user_name</string>
+
+
+    <string-array name="breakfast_items">
+        <item>samosa</item>
+        <item>bread</item>
+        <item>sausage</item>
+        <item>oats</item>
+        <item>smoked fish</item>
+        <item>poached egg</item>
+        <item>pork sausage</item>
+        <item>kachori</item>
+        <item>chapati</item>
+        <item>half cake</item>
+        <item>pancake</item>
+        <item>short cake</item>
+        <item>muffin</item>
+        <item>egg chop</item>
+        <item>omelette</item>
+        <item>kitumbua</item>
+        <item>kashata</item>
+        <item>mushrooms</item>
+        <item>red beans</item>
+        <item>marie biscuits</item>
+        <item>azam andazi</item>
+        <item>boiled sweet potato</item>
+        <item>fried sweet potato</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

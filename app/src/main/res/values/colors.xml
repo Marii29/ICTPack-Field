@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455064</color>
+    <color name="colorPrimaryDark">#37474F</color>
+    <color name="colorAccent">#AD1457</color>
+
+    <!--Main activity stuff-->
+    <color name="drawable_tint">#AD1457</color>
+    <color name="security_question">#D81B60</color>
+    <color name="btn_text_color">#ffffff</color>
+    <color name="btn_background">#424242</color>
+    <color name="buttons_universal">#c7513b3b</color>
+
+    <!--Home page image dots-->
+    <color name="active_dots">#455064</color>
+    <color name="inactive_dots">#ED4791</color>
+
+    <color name="grey">#696969</color>
+</resources>

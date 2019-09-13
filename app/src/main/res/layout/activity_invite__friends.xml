@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Invite_Friends">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/order_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="INVITE FRIENDS"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextAppearance="@style/CustomActionBar">
+
+    </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:orientation="vertical">
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/smsNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone no"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Message:"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/smsMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/pacifico"
+                android:textSize="20dp"
+                android:text="Please join this cool app, that allows you to order foods from different restaurants at unbelievable prices. Just click this link. https://restaurant.com"/>
+            <Button
+                android:id="@+id/send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#fff"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/seasrn__"
+                android:background="@color/colorPrimary"
+                android:text="Send"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Choose a contact"
+                android:background="@color/btn_background"
+                android:fontFamily="@font/seasrn__"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:layout_marginTop="20dp"
+                android:onClick="get"/>
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ListView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/header"
+        android:id="@+id/design_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:menu="@menu/navigation_menu"
+        android:background="#424242"
+        app:itemTextColor="#fff"
+        app:itemIconTint="#fff"
+        android:layout_gravity="start">
+
+
+    </android.support.design.widget.NavigationView>
+
+
+</android.support.v4.widget.DrawerLayout>

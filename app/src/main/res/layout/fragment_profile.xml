@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/header"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="15dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="110dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/avatar"/>
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="278dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="12dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="40dp"
+                android:hint="John Smith"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="12dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:drawablePadding="40dp"
+                android:hint="jsmith89@gmail.com"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="12dp"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:drawablePadding="40dp"
+                android:hint="0789 673 489"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="12dp"
+                android:drawableLeft="@drawable/ic_place_black_24dp"
+                android:drawablePadding="40dp"
+                android:hint="Shoppers Plaza, Mbezi beach"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textSize="12dp"
+                android:drawableLeft="@drawable/ic_credit_card_black_24dp"
+                android:drawablePadding="40dp"
+                android:hint="J00123456789"/>
+            <Button
+                android:id="@+id/done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/btn_background"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:text="DONE"
+                android:textSize="27dp"
+                android:fontFamily="@font/seasrn__"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
